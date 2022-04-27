@@ -1,0 +1,71 @@
+body {
+    font-family: 'vazir';
+}
+
+.hidden {
+    display: none !important;
+}
+
+.image-1 {
+    background: url(../images/1.jpg) center/cover no-repeat;
+    width: 20%;
+}
+
+.image-2 {
+    background: url(../images/2.jpg) center/cover no-repeat;
+    width: 20%;
+}
+
+.image-3 {
+    background: url(../images/3.jpg) center/cover no-repeat;
+    width: 20%;
+}
+
+.image-4 {
+    background: url(../images/4.jpg) center/cover no-repeat;
+    width: 20%;
+    background-color: beige;
+}
+
+.image {
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    background-color: grey;
+    font-size: 3rem;
+    color: white;
+}
+
+
+.image-dark {
+    border: 3px solid white;
+}
+
+.image-correctly {
+    border: 10px solid greenyellow;
+
+}
+
+.image-wrongly {
+    border: 10px solid red;
+
+}
+
+.image:hover {
+    opacity: 0.30;
+    cursor: pointer;
+}
+
+.row {
+    height: 30vh;
+}
+
+#btn-change-theme {
+    margin: 0.5rem;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+#btn-change-theme:hover {
+    opacity: 80%;
+}
